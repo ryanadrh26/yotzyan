@@ -4,37 +4,40 @@ Yotzyan adalah aplikasi terdesentralisasi (dApp) yang dibangun di atas platform 
 
 ## Fitur
 
-- Bermain permainan Yahtzee secara online.
-- Lakukan staking token Anda untuk mendapatkan imbalan.
-- Bersaing dengan orang lain untuk naik ke puncak peringkat Yotzyan.
+- Mainkan permainan Yahtzee secara online.
+- Lakukan staking token TEA untuk mendapatkan imbalan.
+- Bersaing dengan pemain lain untuk naik di papan peringkat Yotzyan.
 - Gameplay yang aman dan transparan didukung oleh teknologi blockchain.
 
 ## Memulai
 
-Untuk memulai dengan Yotzyan, ikuti langkah-langkah ini:
+Untuk memulai menggunakan Yotzyan, ikuti langkah-langkah berikut:
 
-1. Clone repository: `git clone https://github.com/ryanadrh26/yotzyan.git`
-2. Install dependensi: `npm install`
-3. Jalankan aplikasi: `npm start`
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/ryanadrh26/yotzyan.git
+   ```
 
-## Staking
+2. **Install dependensi:**
+   ```bash
+   npm install
+   ```
 
-Yotzyan mendukung staking token TEA. Dengan melakukan staking token Anda, Anda dapat mendapatkan imbalan dan berkontribusi pada pertumbuhan ekosistem Yotzyan.
+3. **Jalankan aplikasi:**
+   ```bash
+   npm start
+   ```
 
-Untuk melakukan staking token Anda, ikuti langkah-langkah ini:
+## Kontribusi
 
-1. Hubungkan dompet Anda ke dApp Yotzyan.
-2. Buka bagian staking.
-3. Pilih jumlah token yang ingin Anda staking dan konfirmasikan transaksi.
-
-## Berkontribusi
-
-Kontribusi sangat dihargai! Jika Anda ingin berkontribusi pada Yotzyan, silakan lihat [panduan kontribusi](CONTRIBUTING.md).
+Kami sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi pada Yotzyan, silakan lihat [panduan kontribusi](CONTRIBUTING.md) kami.
 
 ## Lisensi
 
-Yotzyan dilisensikan di bawah [MIT License](LICENSE).
+Yotzyan dilisensikan di bawah [Apache License 2.0](LICENSE).
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau saran mengenai Yotzyan, jangan ragu untuk menghubungi kami di [contact@yotzyan.com](mailto:contact@yotzyan.com).
+Jika Anda memiliki pertanyaan atau saran tentang Yotzyan, jangan ragu untuk menghubungi kami di [contact@yotzyan.com](mailto:contact@yotzyan.com).
+
+Terima kasih telah menggunakan Yotzyan!
