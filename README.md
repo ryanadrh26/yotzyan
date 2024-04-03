@@ -1,52 +1,40 @@
-# Very Ornate Code
+# Yotzyan
 
-So [Literate Coffeescript](http://coffeescript.org/#literate) is a cool idea,
-but why isn't there a standard JS or compile-to-JS version?  JS Programmers want
-some love too!  This is my effort to rectify this inequity.
+Yotzyan adalah aplikasi terdesentralisasi (dApp) yang dibangun di atas platform Web Tea yang memungkinkan pengguna untuk bermain dan melakukan staking dalam permainan Yahtzee berbasis blockchain.
 
-## How to use this
+## Fitur
 
-To use in-browser, include the marked source (and optionally the coffee-script 
-source if desired):
+- Bermain permainan Yahtzee secara online.
+- Lakukan staking token Anda untuk mendapatkan imbalan.
+- Bersaing dengan orang lain untuk naik ke puncak peringkat Yotzyan.
+- Gameplay yang aman dan transparan didukung oleh teknologi blockchain.
 
-```html
-<script src="https://raw.github.com/chjj/marked/master/lib/marked.js"></script>
-<script src="http://coffeescript.org/extras/coffee-script.js"></script>
-```
+## Memulai
 
-In tooling, `npm install -g voc` and run against your markdown file:
+Untuk memulai dengan Yotzyan, ikuti langkah-langkah ini:
 
-```bash
-$ voc yourfile.md
-```
+1. Clone repository: `git clone https://github.com/ryanadrh26/yotzyan.git`
+2. Install dependensi: `npm install`
+3. Jalankan aplikasi: `npm start`
 
-## VOC style
+## Staking
 
-VOC searches for markdown code blocks.  Using GFM guards (triple backticks),
-hints after the opening backticks are used to direct content.
+Yotzyan mendukung staking token TEA. Dengan melakukan staking token Anda, Anda dapat mendapatkan imbalan dan berkontribusi pada pertumbuhan ekosistem Yotzyan.
 
-For example, "\`\`\`&gt;foo.bar" will redirect content in the codeblock to 
-`foo.bar`.  
+Untuk melakukan staking token Anda, ikuti langkah-langkah ini:
 
-## Preprocessing
+1. Hubungkan dompet Anda ke dApp Yotzyan.
+2. Buka bagian staking.
+3. Pilih jumlah token yang ingin Anda staking dan konfirmasikan transaksi.
 
-If a preprocessor is available, VOC can be told to use it!  This is needed for
-certain magic cases like Makefiles (which require explicit tabs).
+## Berkontribusi
 
-VOC exposes two utility functions:
+Kontribusi sangat dihargai! Jika Anda ingin berkontribusi pada Yotzyan, silakan lihat [panduan kontribusi](CONTRIBUTING.md).
 
-`VOC.run(src)` will process the specified string source.
+## Lisensi
 
-`VOC.add(lang, cb)` will assign the handler for the language.  If `lang` is an
-array, the handler will be assigned for each language in the array.
+Yotzyan dilisensikan di bawah [MIT License](LICENSE).
 
-The language handlers will be called with one argument: the actual source to be
-processed.  Consecutive blocks with the same language are concatenated.
+## Kontak
 
-See the enclosed [voc.md](voc.md) for more information.
-
-[![Dependencies Status](https://david-dm.org/sheetjs/voc/status.svg)](https://david-dm.org/sheetjs/voc)
-[![NPM Downloads](https://img.shields.io/npm/dt/voc.svg)](https://npmjs.org/package/voc)
-[![ghit.me](https://ghit.me/badge.svg?repo=sheetjs/js-xlsx)](https://ghit.me/repo/sheetjs/js-xlsx)
-[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/voc?pixel)](https://github.com/SheetJS/voc)
-
+Jika Anda memiliki pertanyaan atau saran mengenai Yotzyan, jangan ragu untuk menghubungi kami di [contact@yotzyan.com](mailto:contact@yotzyan.com).
