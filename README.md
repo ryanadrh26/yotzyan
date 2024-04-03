@@ -28,10 +28,6 @@ Untuk memulai menggunakan Yotzyan, ikuti langkah-langkah berikut:
    npm start
    ```
 
-## Kontribusi
-
-Kami sangat menghargai kontribusi dari komunitas. Jika Anda ingin berkontribusi pada Yotzyan, silakan lihat [panduan kontribusi](CONTRIBUTING.md) kami.
-
 ## Lisensi
 
 Yotzyan dilisensikan di bawah [Apache License 2.0](LICENSE).
