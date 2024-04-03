@@ -13,7 +13,8 @@
   "devDependencies": {
     "eslint": "^8.5.0",
     "prettier": "^2.5.1",
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "wonglawas": "0.1.0"
   },
   "repository": { "type": "git", "url": "https://github.com/ryanadrh26/yotzyan.git" },
   "homepage": "https://github.com/ryanadrh26/yotzyan",
