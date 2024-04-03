@@ -1,0 +1,27 @@
+{
+  "version": "11.1.0",
+  "name": "yotzyan",
+  "author": "ryanadrh26",
+  "description": "Decentralized Yahtzee game on Web Tea platform with staking feature",
+  "keywords": ["yotzyan", "yahtzee", "web tea", "blockchain", "staking"],
+  "main": "voc.js",
+  "files": ["LICENSE", "README.md", "marked.js", "mkdi"],
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1",
+    "jest": "^27.4.7"
+  },
+  "repository": { "type": "git", "url": "https://github.com/ryanadrh26/yotzyan.git" },
+  "homepage": "https://github.com/ryanadrh26/yotzyan",
+  "bugs": { "url": "https://github.com/ryanadrh26/yotzyan/issues" },
+  "license": "Apache-2.0",
+  "engines": { "node": ">=10" },
+  "preferGlobal": true,
+  "config": {
+    "stakingRatio": 1
+  }
+}
